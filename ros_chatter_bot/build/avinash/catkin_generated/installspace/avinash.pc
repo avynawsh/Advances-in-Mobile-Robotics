@@ -1,0 +1,8 @@
+prefix=/home/avinash/Downloads/SC635/avinash_183070010/install
+
+Name: avinash
+Description: Description of avinash
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

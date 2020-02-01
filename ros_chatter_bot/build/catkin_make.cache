@@ -1,0 +1,2 @@
+avinash
+-DCATKIN_DEVEL_PREFIX=/home/avinash/Downloads/SC635/avinash_183070010/devel -DCMAKE_INSTALL_PREFIX=/home/avinash/Downloads/SC635/avinash_183070010/install -G Unix Makefiles

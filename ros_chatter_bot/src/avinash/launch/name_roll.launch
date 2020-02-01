@@ -1,0 +1,10 @@
+<launch>
+    <arg name = "name"  default = "name_undefined"/>
+    <arg name = "roll_number"  default = "roll_not_mentioned"/>
+    
+    <node name = "name" pkg = "avinash" type = "name_listener.py" args ="avinash"/>
+    <node name = "roll_number" pkg = "avinash" type = "roll_listener.py" args ="183070010"/>
+
+    <node name = "subscriber" pkg = "avinash" type = "subscriber.py" output = "screen" />
+
+</launch>
